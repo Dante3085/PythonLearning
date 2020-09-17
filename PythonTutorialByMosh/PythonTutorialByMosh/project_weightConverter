@@ -1,0 +1,11 @@
+
+weight = float(input("Weight: "))
+unit = input("(L)bs or (K)g: ")
+output = 0
+
+if unit.upper() == "L":
+    output = f"You are {weight * 0.45} kilos"
+elif unit.upper() == "K":
+    output = f"You are {weight / 0.45} lbs"
+
+print(output)
