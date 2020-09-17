@@ -9,6 +9,7 @@ numbers = [5, 123, 3, 5]
 for number in numbers:
     print(number)
 
+# range(10) produces list [0, 1, ..., 9]
 for number in range(10):
     print(number)
 
